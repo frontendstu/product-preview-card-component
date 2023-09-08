@@ -47,6 +47,15 @@
   --link-color: var(--color-aquamarine);
   --link-color-active: var(--color-dark-aquamarine);
   --link-transition: 150ms ease-in-out all;
+
+  /******* Buttons */
+  --btn-font: var(--fw-semibold) var(--fs-200) var(--ff-primary);
+  --btn-color: var(--color-neutral-100);
+  --btn-color-active: var(--btn-color);
+  --btn-bg: var(--color-aquamarine);
+  --btn-bg-active: var(--color-dark-aquamarine);
+  --btn-radius: 8px;
+  --btn-padding-block: 1rem; /* 16px */
 }
 
 /******* Font Import */
