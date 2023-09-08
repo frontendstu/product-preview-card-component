@@ -18,6 +18,8 @@
   --color-aquamarine: hsl(157, 36%, 37%);
   --color-dark-aquamarine: hsl(157, 43%, 18%);
 
+  --color-body-bg: var(--color-cream);
+
   /******* Fonts */
   --fw-medium: 500;
   --fw-semibold: 600;
