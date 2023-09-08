@@ -114,6 +114,11 @@ body {
   background-color: var(--color-body-bg);
 }
 
+.heading {
+  font: var(--heading-font);
+  line-height: var(--heading-leading);
+}
+
 a {
   text-decoration: none;
   color: var(--link-color);
