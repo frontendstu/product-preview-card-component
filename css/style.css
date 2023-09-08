@@ -68,6 +68,10 @@
   --product-card-details-margin-top: 0.75rem; /* 12px */
   --product-card-details-heading-color: var(--color-neutral-900);
   --product-card-details-text-margin-top: 1rem; /* 16px */
+
+  --product-card-details-price-margin-top: 1.5rem; /* 24px */
+  --product-card-details-price-heading-color: var(--color-aquamarine);
+  --product-card-details-price-heading-margin-right: 1.24rem; /* 20px */
 }
 
 /******* Font Import */
@@ -238,5 +242,23 @@ a:focus-within {
 
   .product-card__content-details p {
     --product-card-details-text-margin-top: 1.5rem; /* 24px */
+  }
+}
+
+/** Product Card: Price */
+.product-card__content-price {
+  margin-top: var(--product-card-details-price-margin-top);
+  display: flex;
+  align-items: center;
+}
+
+.product-card__content-price .heading {
+  color: var(--product-card-details-price-heading-color);
+  margin-right: var(--product-card-details-price-heading-margin-right);
+}
+
+@media (min-width: 64em) {
+  .product-card__content-price {
+    --product-card-details-price-margin-top: 1.875rem; /* 30px */
   }
 }
