@@ -112,6 +112,8 @@ body {
   line-height: var(--copy-leading);
   color: var(--copy-color);
   background-color: var(--color-body-bg);
+  display: grid;
+  place-content: center;
 }
 
 .heading {
