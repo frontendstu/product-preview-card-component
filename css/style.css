@@ -62,6 +62,7 @@
 
   --product-card-content-padding: 1.5rem; /* 24px */
   --product-card-content-btn-margin-top: 1.25rem; /* 20px */
+  --product-card-content-btn-img-margin-right: 0.75rem; /* 12px */
 
   --product-card-category-fs: var(--fs-100);
   --product-card-category-leading: 5px;
@@ -199,7 +200,6 @@ a:focus-within {
 @media (min-width: 64em) {
   .product-card__thumbnail {
     width: 50%;
-    object-fit: cover;
   }
 }
 
@@ -211,6 +211,10 @@ a:focus-within {
 
 .product-card__content .btn {
   margin-top: var(--product-card-content-btn-margin-top);
+}
+
+.product-card__content .btn img {
+  margin-right: var(--product-card-content-btn-img-margin-right);
 }
 
 @media (min-width: 64em) {
