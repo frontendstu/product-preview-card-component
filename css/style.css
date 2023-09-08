@@ -55,6 +55,10 @@
   --btn-bg-active: var(--color-dark-aquamarine);
   --btn-radius: 8px;
   --btn-padding-block: 1rem; /* 16px */
+
+  /******* Product Card */
+  --product-card-bg: var(--color-neutral-100);
+  --product-card-max-width: 21.4375rem; /* 343px */
 }
 
 /******* Font Import */
@@ -149,4 +153,26 @@ a:focus-within {
 .btn:focus-within {
   color: var(--btn-color-active);
   background-color: var(--btn-bg-active);
+}
+
+/******* Product Card */
+.product-card {
+  overflow: hidden;
+  background-color: var(--product-card-bg);
+  border-radius: 8px;
+  margin-inline: auto;
+  max-width: var(--product-card-max-width);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media (min-width: 64em) {
+  .product-card {
+    --product-card-max-width: 37.5rem; /* 600px */
+
+    max-width: var(--product-card-max-width);
+    flex-direction: row;
+  }
 }
