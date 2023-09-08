@@ -29,4 +29,9 @@
 
   --ff-primary: 'Montserrat', sans-serif;
   --ff-heading: 'Fraunces', serif;
+
+  /******* Copy */
+  --copy-font: var(--fw-medium) var(--fs-200) var(--ff-primary);
+  --copy-leading: 23px;
+  --copy-color: var(--color-neutral-500);
 }
