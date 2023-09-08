@@ -219,7 +219,7 @@ a:focus-within {
 
 @media (min-width: 64em) {
   .product-card__content {
-    --product-card-content-padding: 2rem; /* 16px */
+    --product-card-content-padding: 1.65rem 2rem; /* 26.4px 32px */
 
     width: 50%;
   }
