@@ -40,7 +40,6 @@
   /******* Heading */
   --heading-font: var(--fw-bold) var(--fs-400) var(--ff-heading);
   --heading-leading: 32px;
-  --heading-color: var(--color-neutral-900);
 
   /******* Links */
   --link-decoration: none;
