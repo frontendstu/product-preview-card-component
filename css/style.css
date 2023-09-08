@@ -59,6 +59,8 @@
   /******* Product Card */
   --product-card-bg: var(--color-neutral-100);
   --product-card-max-width: 21.4375rem; /* 343px */
+
+  --product-card-content-padding: 1.5rem; /* 24px */
 }
 
 /******* Font Import */
@@ -186,5 +188,19 @@ a:focus-within {
   .product-card__thumbnail {
     width: 50%;
     object-fit: cover;
+  }
+}
+
+/** Product Card: Content */
+.product-card__content {
+  padding: var(--product-card-content-padding);
+  width: 100%;
+}
+
+@media (min-width: 64em) {
+  .product-card__content {
+    --product-card-content-padding: 2rem; /* 16px */
+
+    width: 50%;
   }
 }
