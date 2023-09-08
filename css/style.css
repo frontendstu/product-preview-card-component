@@ -64,6 +64,10 @@
 
   --product-card-category-fs: var(--fs-100);
   --product-card-category-leading: 5px;
+
+  --product-card-details-margin-top: 0.75rem; /* 12px */
+  --product-card-details-heading-color: var(--color-neutral-900);
+  --product-card-details-text-margin-top: 1rem; /* 16px */
 }
 
 /******* Font Import */
@@ -213,4 +217,26 @@ a:focus-within {
   text-transform: uppercase;
   font-size: var(--product-card-category-fs);
   letter-spacing: var(--product-card-category-leading);
+}
+
+/** Product Card: Details */
+.product-card__content-details {
+  margin-top: var(--product-card-details-margin-top);
+}
+.product-card__content-details .heading {
+  color: var(--product-card-details-heading-color);
+}
+
+.product-card__content-details p {
+  margin-top: var(--product-card-details-text-margin-top);
+}
+
+@media (min-width: 64em) {
+  .product-card__content-details {
+    --product-card-details-margin-top: 1.25rem; /* 20px */
+  }
+
+  .product-card__content-details p {
+    --product-card-details-text-margin-top: 1.5rem; /* 24px */
+  }
 }
