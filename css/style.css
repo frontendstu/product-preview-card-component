@@ -42,3 +42,11 @@
   --heading-leading: 32px;
   --heading-color: var(--color-neutral-900);
 }
+
+/******* Font Import */
+@font-face {
+  font-family: 'Montserrat';
+  font-display: swap;
+  font-weight: 500 700;
+  src: url('../assets/fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
