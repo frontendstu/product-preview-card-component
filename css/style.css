@@ -61,6 +61,9 @@
   --product-card-max-width: 21.4375rem; /* 343px */
 
   --product-card-content-padding: 1.5rem; /* 24px */
+
+  --product-card-category-fs: var(--fs-100);
+  --product-card-category-leading: 5px;
 }
 
 /******* Font Import */
@@ -203,4 +206,11 @@ a:focus-within {
 
     width: 50%;
   }
+}
+
+/** Product Card: Category */
+.product-card__content-category {
+  text-transform: uppercase;
+  font-size: var(--product-card-category-fs);
+  letter-spacing: var(--product-card-category-leading);
 }
