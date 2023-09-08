@@ -176,3 +176,15 @@ a:focus-within {
     flex-direction: row;
   }
 }
+
+/*** Product Card: Thumbnail */
+.product-card__thumbnail {
+  width: 100%;
+}
+
+@media (min-width: 64em) {
+  .product-card__thumbnail {
+    width: 50%;
+    object-fit: cover;
+  }
+}
