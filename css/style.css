@@ -91,3 +91,11 @@ ul[role='list'],
 ol[role='list'] {
   list-style: none;
 }
+
+/******* Boilerplate */
+body {
+  font: var(--copy-font);
+  line-height: var(--copy-leading);
+  color: var(--copy-color);
+  background-color: var(--color-body-bg);
+}
