@@ -41,6 +41,12 @@
   --heading-font: var(--fw-bold) var(--fs-400) var(--ff-heading);
   --heading-leading: 32px;
   --heading-color: var(--color-neutral-900);
+
+  /******* Links */
+  --link-decoration: none;
+  --link-color: var(--color-aquamarine);
+  --link-color-active: var(--color-dark-aquamarine);
+  --link-transition: 150ms ease-in-out all;
 }
 
 /******* Font Import */
