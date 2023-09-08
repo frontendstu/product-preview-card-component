@@ -17,4 +17,16 @@
   --color-cream: hsl(28, 38%, 92%);
   --color-aquamarine: hsl(157, 36%, 37%);
   --color-dark-aquamarine: hsl(157, 43%, 18%);
+
+  /******* Fonts */
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  --fs-100: 0.75rem; /* 12px */
+  --fs-200: 0.875rem; /* 14px */
+  --fs-400: 2rem; /* 32px */
+
+  --ff-primary: 'Montserrat', sans-serif;
+  --ff-heading: 'Fraunces', serif;
 }
