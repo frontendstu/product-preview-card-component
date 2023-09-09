@@ -183,24 +183,9 @@ a:focus-within {
   flex-direction: column;
 }
 
-@media (min-width: 64em) {
-  .product-card {
-    --product-card-max-width: 37.5rem; /* 600px */
-
-    max-width: var(--product-card-max-width);
-    flex-direction: row;
-  }
-}
-
 /*** Product Card: Thumbnail */
 .product-card__thumbnail {
   width: 100%;
-}
-
-@media (min-width: 64em) {
-  .product-card__thumbnail {
-    width: 50%;
-  }
 }
 
 /** Product Card: Content */
@@ -215,18 +200,6 @@ a:focus-within {
 
 .product-card__content .btn img {
   margin-right: var(--product-card-content-btn-img-margin-right);
-}
-
-@media (min-width: 64em) {
-  .product-card__content {
-    --product-card-content-padding: 1.65rem 2rem; /* 26.4px 32px */
-
-    width: 50%;
-  }
-
-  .product-card__content .btn {
-    --product-card-content-btn-margin-top: 1.875rem; /* 30px */
-  }
 }
 
 /** Product Card: Category */
@@ -248,16 +221,6 @@ a:focus-within {
   margin-top: var(--product-card-details-text-margin-top);
 }
 
-@media (min-width: 64em) {
-  .product-card__content-details {
-    --product-card-details-margin-top: 1.25rem; /* 20px */
-  }
-
-  .product-card__content-details p {
-    --product-card-details-text-margin-top: 1.5rem; /* 24px */
-  }
-}
-
 /** Product Card: Price */
 .product-card__content-price {
   margin-top: var(--product-card-details-price-margin-top);
@@ -270,7 +233,36 @@ a:focus-within {
   margin-right: var(--product-card-details-price-heading-margin-right);
 }
 
-@media (min-width: 64em) {
+@media (min-width: 40.625em) {
+  .product-card {
+    --product-card-max-width: 37.5rem; /* 600px */
+
+    max-width: var(--product-card-max-width);
+    flex-direction: row;
+  }
+
+  .product-card__thumbnail {
+    width: 50%;
+  }
+
+  .product-card__content {
+    --product-card-content-padding: 1.65rem 2rem; /* 26.4px 32px */
+
+    width: 50%;
+  }
+
+  .product-card__content .btn {
+    --product-card-content-btn-margin-top: 1.875rem; /* 30px */
+  }
+
+  .product-card__content-details {
+    --product-card-details-margin-top: 1.25rem; /* 20px */
+  }
+
+  .product-card__content-details p {
+    --product-card-details-text-margin-top: 1.5rem; /* 24px */
+  }
+
   .product-card__content-price {
     --product-card-details-price-margin-top: 1.875rem; /* 30px */
   }
