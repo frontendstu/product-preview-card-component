@@ -74,6 +74,11 @@
   --product-card-details-price-margin-top: 1.5rem; /* 24px */
   --product-card-details-price-heading-color: var(--color-aquamarine);
   --product-card-details-price-heading-margin-right: 1.24rem; /* 20px */
+
+  /******* Attribution */
+  --attribution-font-size: var(--fs-100);
+  --attribution-color: hsl(28, 38%, 72%);
+  --attribution-margin-block: 1rem;
 }
 
 /******* Font Import */
@@ -233,6 +238,20 @@ a:focus-within {
   margin-right: var(--product-card-details-price-heading-margin-right);
 }
 
+/** Attribution **/
+.attribution,
+.attribution a {
+  text-align: center;
+  font-size: var(--attribution-font-size);
+  color: var(--attribution-color);
+  margin-block: var(--attribution-margin-block);
+}
+
+.attribution a:hover,
+.attribution a:focus {
+  text-decoration: underline;
+}
+
 @media (min-width: 40.625em) {
   .product-card {
     --product-card-max-width: 37.5rem; /* 600px */
@@ -265,5 +284,10 @@ a:focus-within {
 
   .product-card__content-price {
     --product-card-details-price-margin-top: 1.875rem; /* 30px */
+  }
+
+  .attribution,
+  .attribution a {
+    --attribution-font-size: var(--fs-200);
   }
 }
